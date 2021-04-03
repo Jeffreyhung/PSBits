@@ -1,5 +1,8 @@
-Simple (but fully working code) for `NPLogonNotify()`. 
+Simple (but fully working) code for `NPLogonNotify()`. 
 The function obtains logon data, including cleartext password.
+
+**The DLL is detected by AV engines as a "potentially unwanted software" for obvious reason.**<br>
+You have been warned. And if you want to run it anyway, you can re-compile it (instructions below) after introducing some changes in the source code, or just add an AV exclusion.
 
 #### Installation:
 1. Copy NPPSpy.dll to the System32 folder
